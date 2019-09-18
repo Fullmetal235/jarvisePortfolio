@@ -42,8 +42,8 @@ let resumeData = {
         {
           "highSchoolName":"Aliceville High School",
           "highSchoolSpecialization":"High School Diploma",
-          "MonthOfPassing":"May",
-          "YearOfPassing":"2015" 
+          "highMonthOfPassing":"May",
+          "highYearOfPassing":"2015" 
         }
     ],
     "work":[
