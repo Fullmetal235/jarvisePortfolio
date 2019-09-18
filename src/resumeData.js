@@ -24,7 +24,7 @@ let resumeData = {
       ],
     "aboutme":"I am currently a student in Lambda School training to become a full stack web developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"United States",
-    "website":"https://rbhatia46.github.io",
+    "website":"www.jarvisebillupsbrown.com",
     "education":[
       {
         "UniversityName":"Lambda School",
