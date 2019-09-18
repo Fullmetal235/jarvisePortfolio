@@ -21,17 +21,18 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-						   <h3>{item.highSchoolName}</h3>
+						   
                           <p>
                           {item.Achievements}
                           </p>
-						   
-                         { /*<p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>*/}
-                         {/* <p>
+						   <h3>{item.highSchoolName}</h3>
+                         <p className="info">
+                          {item.highSchoolSpecialization}
+							{/* <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em>*/}
+						   </p>
+                          <p>
                           {item.Achievements}
-                          </p>*/}
+                          </p>
                        </div>
                     </div>
                   )
