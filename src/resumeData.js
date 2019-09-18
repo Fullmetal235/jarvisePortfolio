@@ -65,8 +65,7 @@ let resumeData = {
     "skillsDescription":"My skills",
     "skills":[
       {
-        "skillname":"HTML5",
-		"skillLogo":"./images/svg/html"  
+        "skillname":"HTML5"
       },
       {
         "skillname":"CSS"
