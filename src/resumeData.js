@@ -79,9 +79,10 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Lendr",
+        "description":"A website dedicated to lending items to users.",
+        "imgurl":"images/portfolio/phone.jpg",
+		  "link":"https://frontend.lendr.now.sh"
       },
       {
         "name":"project2",
