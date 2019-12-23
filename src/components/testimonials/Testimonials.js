@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './testimonials.css';
 export default class Testimonials extends Component {
   render() {
     let resumeData = this.props.resumeData;

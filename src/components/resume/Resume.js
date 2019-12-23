@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Resume.css'
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -89,8 +90,9 @@ export default  class Resume extends Component {
                     return(
                       <li>
 							
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+							{/*<span className={`bar-expand ${item.skillname.toLowerCase()}`}>
+                      </span>*/}<em className= 'skillName'>{item.skillname}</em>
+							<img src={item.skillLogo}/>
 							
                       </li>
                     )

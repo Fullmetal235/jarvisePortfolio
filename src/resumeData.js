@@ -65,19 +65,24 @@ let resumeData = {
     "skillsDescription":"My skills",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"HTML5",
+		  "skillLogo":'/src/svg/react.png'
       },
       {
-        "skillname":"CSS"
+        "skillname":"CSS",
+		  "skillLogo":'../svg/html.svg'
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Reactjs",
+		  "skillLogo":'../svg/html.svg'
       },
       {
-        "skillname":"Nodejs"
+        "skillname":"Nodejs",
+		  "skillLogo":'../svg/react.png'
       },
 		{
-        "skillname":"SQL"
+        "skillname":"SQL",
+			"skillLogo":'../svg/html.svg'
       }
     ],
     "portfolio":[

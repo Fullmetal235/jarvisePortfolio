@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Portfolio.css'
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -11,9 +12,10 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
+				  <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="modal">
+                    <a href= {`${item.link}`}>
+						<div clasName= "hovereffect">
                       <img href= {`${item.link}`} src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -21,10 +23,14 @@ export default class Porfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
+						</div>
                     </a>
                   </div>
                 </div>
-              )
+				
+    
+  
+       )
             })
           }
           </div>
