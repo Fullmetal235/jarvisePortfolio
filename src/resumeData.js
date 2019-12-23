@@ -88,25 +88,17 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Lendr",
-        "description":"A website dedicated to lending items to users using node.js for the backend with react and redux for frontend",
+        "description":"A website dedicated to lending items to users using node.js for the backend with react and redux for frontend.",
         "imgurl":"images/portfolio/retrocam.jpg",
 		  "link":"https://frontend.lendr.now.sh"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Github User Search",
+        "description":"A react app dedicated to making searxhing for github users more easily.",
+        "imgurl":"images/portfolio/github.png",
+		   "link":"https://githubusersearch235.netlify.com"
       },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
+      
     ],
     "testimonials":[
       {
