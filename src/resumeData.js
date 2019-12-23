@@ -88,7 +88,7 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Lendr",
-        "description":"A website dedicated to lending items to users.",
+        "description":"A website dedicated to lending items to users using node.js for the backend with react and redux for frontend",
         "imgurl":"images/portfolio/retrocam.jpg",
 		  "link":"https://frontend.lendr.now.sh"
       },
