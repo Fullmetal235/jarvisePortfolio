@@ -39,10 +39,10 @@ import axios from 'axios';
               </div>
             </aside>
           </div>*/}
-			 <form id="form" onsubmit={handleSubmit} onChange={handleChange}>
+			 <form onSubmit={handleSubmit}>
           <p>
-            <input required type="text" name="fullName"  value={creds.fullName} placeholder="Full Name" />
-            <input required type="text" name="email" value={creds.email}
+            <input required type="text" name="fullName"  value={creds.fullName} onChange={handleChange} placeholder="Full Name" />
+            <input required type="text" name="email" value={creds.email} onChange={handleChange}
 				placeholder="Email" />
           </p>
           <p>
@@ -52,11 +52,12 @@ import axios from 'axios';
               rows="5"
               placeholder="Message"
 			  value={creds.message}
+				onChange={handleChange}
             ></textarea>
           </p>
 
           <p>
-            <input type="submit" name="submit" value="SUBMIT" id="submit" />
+            <input type="submit" name="submit"  />
           </p>
         </form>
         </section>
