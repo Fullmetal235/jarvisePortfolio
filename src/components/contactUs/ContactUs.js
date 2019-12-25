@@ -1,8 +1,26 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import './ContactUs.css';
-export default class ContactUs extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
+import axios from 'axios';
+ function ContactUs (props) {
+	  const [creds, setCreds] = useState({fullName: '', email: '', message:''})
+	  const handleSubmit = e => {
+        e.preventDefault();
+        axios
+            .post('https://contact-backend-app.herokuapp.com/contacts', creds)
+            .then(res => {
+                console.log(res)
+    
+            })
+            .catch(err => {
+                console.log(typeof err.message)
+            })
+    }
+	  const handleChange = e => {
+        // console.log(credentials) 
+        console.log(creds) 
+        setCreds({...creds, [e.target.name]: e.target.value})
+    }
+	  //let resumeData = props.resumeData;
     return (
       <section id="contact">
           <div className="row section-head">
@@ -12,7 +30,7 @@ export default class ContactUs extends Component {
               </p>
             </div>
           </div>
-          <div className="row">
+         {/* <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
                 <h4>Linked in :
@@ -20,8 +38,27 @@ export default class ContactUs extends Component {
                 </h4>
               </div>
             </aside>
-          </div>
+          </div>*/}
+			 <form id="form" method="post" action="/" onsubmit={handleSubmit} onChange={handleChange}>
+          <p>
+            <input required type="text" name="name" placeholder="Full Name" />
+            <input required type="text" name="email" placeholder="Email" />
+          </p>
+          <p>
+            <textarea
+              required
+              name="message"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+          </p>
+
+          <p>
+            <input type="submit" name="submit" value="SUBMIT" id="submit" />
+          </p>
+        </form>
         </section>
         );
-  }
+  
 }
+export default ContactUs
