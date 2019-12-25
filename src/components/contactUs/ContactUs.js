@@ -39,7 +39,7 @@ import axios from 'axios';
               </div>
             </aside>
           </div>*/}
-			 <form id="form" method="post" action="/" onsubmit={handleSubmit} onChange={handleChange}>
+			 <form id="form" onsubmit={handleSubmit} onChange={handleChange}>
           <p>
             <input required type="text" name="name" placeholder="Full Name" />
             <input required type="text" name="email" placeholder="Email" />
