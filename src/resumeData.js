@@ -65,31 +65,31 @@ let resumeData = {
   skills: [
     {
       skillname: "HTML5",
-      imgSrc: "./html.jpg"
+      imgSrc: "img/html.jpg"
     },
     {
       skillname: "CSS",
-      imgSrc: "./css1.png"
+      imgSrc: "img/css1.png"
     },
     {
       skillname: "JS",
-      imgSrc: "./js.png"
+      imgSrc: "img/js.png"
     },
     {
       skillname: "React",
-      imgSrc: "./react.png"
+      imgSrc: "img/react.png"
     },
     {
       skillname: "Node",
-      imgSrc: "./node2.png"
+      imgSrc: "img/node2.jpg"
     },
     {
       skillname: "Git",
-      imgSrc: "./git.png"
+      imgSrc: "img/git.png"
     },
     {
       skillname: "Bootstrap",
-      imgSrc: "jarvisePortfolio/src/img/bootstrap1.png"
+      imgSrc: "img/bootstrap1.png"
     }
   ],
   portfolio: [
