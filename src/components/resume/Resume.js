@@ -84,16 +84,16 @@ export default class Resume extends Component {
           </div>
 
           <div className="Skills">
-            <section className="Skills__container">
-              <div className="Skills__container-box">
+            <section className="container">
+              <div className="container-box">
                 {resumeData.skills.map(item => (
-                  <div key={item.skillname} className="Skills__container-box-1">
+                  <div key={item.skillname} className="container-box-1">
                     <img
                       src={item.imgSrc}
                       alt={item.skillname}
-                      className="Skills__img"
+                      className="img"
                     />
-                    <h2 className="Skills__heading">{item.skillname}</h2>
+                    <h2 className="heading">{item.skillname}</h2>
                   </div>
                 ))}
               </div>
