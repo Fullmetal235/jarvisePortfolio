@@ -90,6 +90,11 @@ let resumeData = {
     {
       skillname: "Bootstrap",
       imgSrc: "img/bootstrap1.png"
+    },
+
+    {
+      skillname: "Python",
+      imgSrc: "img/python.png"
     }
   ],
   portfolio: [
