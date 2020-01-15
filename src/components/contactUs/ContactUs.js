@@ -8,9 +8,6 @@ function ContactUs(props) {
     axios
       .post("https://contact-backend-app.herokuapp.com/contacts", creds)
       .then(res => {
-        res.header("Access-Control-Allow-Origin", "*");
-        res.header("Access-Control-Allow-Headers", "X-Requested-With");
-        next();
         console.log(res);
       })
       .catch(err => {
