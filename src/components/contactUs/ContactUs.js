@@ -3,8 +3,7 @@ import "./ContactUs.css";
 import axios from "axios";
 function ContactUs(props) {
   const [creds, setCreds] = useState({ fullName: "", email: "", message: "" });
-  const handleSubmit = e => {
-    e.preventDefault();
+  const handleSubmit = () => {
     axios
       .post("https://contact-backend-app.herokuapp.com/contacts", creds)
       .then(res => {
