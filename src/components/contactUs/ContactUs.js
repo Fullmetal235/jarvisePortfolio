@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import "./ContactUs.css";
 import axios from "axios";
 function ContactUs(props) {
@@ -6,14 +6,14 @@ function ContactUs(props) {
   const handleSubmit = () => {
     axios
       .post("https://contact-backend-app.herokuapp.com/contacts", creds)
-      .then(res => {
+      .then((res) => {
         console.log(res);
       })
-      .catch(err => {
+      .catch((err) => {
         console.log(typeof err.message);
       });
   };
-  const handleChange = e => {
+  const handleChange = (e) => {
     // console.log(credentials)
     console.log(creds);
     setCreds({ ...creds, [e.target.name]: e.target.value });
