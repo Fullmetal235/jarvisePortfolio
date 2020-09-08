@@ -14,14 +14,14 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.education &&
-              resumeData.education.map(item => {
+              resumeData.education.map((item) => {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
                         {item.specialization}
-                        <span>&bull;</span>{" "}
+                        <span></span>{" "}
                         <em className="date">
                           {item.MonthOfPassing} {item.YearOfPassing}
                         </em>
@@ -33,7 +33,7 @@ export default class Resume extends Component {
                       <h3>{item.highSchoolName}</h3>
                       <p className="info">
                         {item.highSchoolSpecialization}
-                        <span>&bull;</span>{" "}
+                        <span></span>{" "}
                         <em className="date">
                           {item.highMonthOfPassing} {item.highYearOfPassing}
                         </em>
@@ -56,7 +56,7 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.work &&
-              resumeData.work.map(item => {
+              resumeData.work.map((item) => {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
@@ -86,7 +86,7 @@ export default class Resume extends Component {
           <div className="Skills">
             <section className="container">
               <div className="container-box">
-                {resumeData.skills.map(item => (
+                {resumeData.skills.map((item) => (
                   <div key={item.skillname} className="container-box-1">
                     <img
                       src={item.imgSrc}
