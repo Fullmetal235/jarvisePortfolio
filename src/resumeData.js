@@ -30,8 +30,8 @@ let resumeData = {
   education: [
     {
       UniversityName: "Lambda School",
-      specialization: "Full Stack Web Development",
-      MonthOfPassing: "Mar",
+      specialization: "Computer Science",
+      MonthOfPassing: "May",
       YearOfPassing: "2020",
     },
     {
