@@ -10,18 +10,18 @@ let resumeData = {
     {
       name: "linkedin",
       url: "https://www.linkedin.com/in/jarvise-billups-brown-a41a44172/",
-      className: "fa fa-linkedin"
+      className: "fa fa-linkedin",
     },
     {
       name: "github",
       url: "https://github.com/Fullmetal235",
-      className: "fa fa-github"
+      className: "fa fa-github",
     },
     {
       name: "twitter",
       url: "https://twitter.com/BrownJarvise",
-      className: "fa fa-twitter"
-    }
+      className: "fa fa-twitter",
+    },
   ],
   aboutme:
     "I am currently a student in Lambda School training to become a full stack web developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
@@ -32,75 +32,81 @@ let resumeData = {
       UniversityName: "Lambda School",
       specialization: "Full Stack Web Development",
       MonthOfPassing: "Mar",
-      YearOfPassing: "2020"
+      YearOfPassing: "2020",
     },
     {
       UniversityName: "University of Alabama-Huntsville",
-      specialization: "Some college",
+      specialization: "Aerospace Engineering",
       MonthOfPassing: "May",
-      YearOfPassing: "2017"
+      YearOfPassing: "2017",
     },
     {
       highSchoolName: "Aliceville High School",
       highSchoolSpecialization: "High School Diploma",
       highMonthOfPassing: "May",
-      highYearOfPassing: "2015"
-    }
+      highYearOfPassing: "2015",
+    },
   ],
   work: [
+    {
+      CompanyName: "Jacks Family Restaurants",
+      specialization: "Team Member",
+      MonthOfLeaving: "May",
+      YearOfLeaving: "2019",
+    },
     {
       CompanyName: "Walmart Supercenter",
       specialization: "Overnight Maintenance",
       MonthOfLeaving: "May",
-      YearOfLeaving: "2019"
+      YearOfLeaving: "2019",
     },
     {
       CompanyName: "Peco Foods",
       specialization: "Shipping and recieving",
       MonthOfLeaving: "Oct",
-      YearOfLeaving: "2017"
-    }
+      YearOfLeaving: "2017",
+    },
   ],
   skillsDescription: "My skills",
   skills: [
     {
       skillname: "HTML5",
-      imgSrc: "img/html.jpg"
+      imgSrc: "img/html.jpg",
     },
     {
       skillname: "CSS",
-      imgSrc: "img/css1.png"
+      imgSrc: "img/css1.png",
     },
     {
       skillname: "JS",
-      imgSrc: "img/js.png"
+      imgSrc: "img/js.png",
     },
     {
       skillname: "React",
-      imgSrc: "img/react.png"
+      imgSrc: "img/react.png",
     },
     {
       skillname: "Node",
-      imgSrc: "img/node2.jpg"
+      imgSrc: "img/node2.jpg",
     },
     {
       skillname: "Git",
-      imgSrc: "img/git.png"
+      imgSrc: "img/git.png",
     },
     {
       skillname: "Bootstrap",
-      imgSrc: "img/bootstrap1.png"
+      imgSrc: "img/bootstrap1.png",
     },
 
     {
       skillname: "Python",
-      imgSrc: "img/python.png"
+      imgSrc: "img/python.png",
     },
 
     {
       skillname: "SQL",
-      imgSrc: "img/sql.png"
-    }
+      imgSrc: "img/sql.png",
+    },
   ],
   portfolio: [
     {
@@ -108,40 +114,40 @@ let resumeData = {
       description:
         "A website dedicated to lending items to users using node.js for the backend with react and redux for frontend.",
       imgurl: "images/portfolio/retrocam.jpg",
-      link: "https://frontend.lendr.now.sh"
+      link: "https://frontend.lendr.now.sh",
     },
     {
       name: "Github User Search",
       description:
         "A react app dedicated to making searxhing for github users more easily.",
       imgurl: "images/portfolio/github.png",
-      link: "https://githubusersearch235.netlify.com"
+      link: "https://githubusersearch235.netlify.com",
     },
 
     {
       name: "StopWatch",
       description: "An appication for using a personal stopwatch.",
       imgurl: "images/portfolio/stopwatch.png",
-      link: "https://github.com/Fullmetal235/stopwatch"
+      link: "https://github.com/Fullmetal235/stopwatch",
     },
     {
       name: "Swaap",
       description:
         "A way for people to gather, collect and stay in contact with people that you meet.",
       imgurl: "images/portfolio/swaaplogoblues.png",
-      link: "https://swaap.co"
-    }
+      link: "https://swaap.co",
+    },
   ],
   testimonials: [
     {
       description: "This is a sample testimonial",
-      name: "Some technical guy"
+      name: "Some technical guy",
     },
     {
       description: "This is a sample testimonial",
-      name: "Some technical guy"
-    }
-  ]
+      name: "Some technical guy",
+    },
+  ],
 };
 
 export default resumeData;
