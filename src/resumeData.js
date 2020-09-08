@@ -27,6 +27,8 @@ let resumeData = {
     "I am currently a student in Lambda School training to become a full stack web developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
   address: "United States",
   website: "www.jarvisebillupsbrown.com",
+  email: "jjbillupsbrown@gmail.com",
+  phone: "+1(205)535-7624",
   education: [
     {
       UniversityName: "Lambda School",
