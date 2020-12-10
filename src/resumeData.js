@@ -139,6 +139,13 @@ let resumeData = {
       imgurl: "images/portfolio/swaaplogoblues.png",
       link: "https://swaap.co",
     },
+    {
+      name: "Project Phoenix",
+      description:
+        "An e-commerce site I have build to showcase my knowledge in context api and a prototype of an e-commerce site I am currently brainstorming.",
+      imgurl: "images/portfolio/E-commerce.jpg",
+      link: "https://projectphoenix.netlify.app/",
+    },
   ],
   testimonials: [
     {
