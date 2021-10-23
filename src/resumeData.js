@@ -31,6 +31,12 @@ let resumeData = {
   phone: "+1(205)535-7624",
   education: [
     {
+      UniversityName: "Shelton State Community College",
+      specialization: "Computer Science",
+      MonthOfPassing: "May",
+      YearOfPassing: "2022",
+    },
+    {
       UniversityName: "Lambda School",
       specialization: "Computer Science",
       MonthOfPassing: "May",
