@@ -57,6 +57,12 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Walmart Supercenter",
+      specialization: "Maintenance",
+      MonthOfLeaving: "May",
+      YearOfLeaving: "2022",
+    },
+    {
       CompanyName: "Jacks Family Restaurants",
       specialization: "Team Member",
       MonthOfLeaving: "May",
