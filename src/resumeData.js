@@ -31,16 +31,25 @@ let resumeData = {
   phone: "+1(205)535-7624",
   education: [
     {
+      UniversityName: "University of Alabama",
+      specialization: "Bachelor Degree",
+      MonthOfPassing: "December",
+      YearOfPassing: "2023",
+      
+    },
+    {
       UniversityName: "Shelton State Community College",
-      specialization: "Computer Science",
+      specialization: "Associate Degree",
       MonthOfPassing: "May",
       YearOfPassing: "2022",
+      
     },
     {
       UniversityName: "Lambda School",
       specialization: "Computer Science",
       MonthOfPassing: "May",
       YearOfPassing: "2020",
+      
     },
     {
       UniversityName: "University of Alabama-Huntsville",
