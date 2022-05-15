@@ -33,29 +33,29 @@ let resumeData = {
     {
       UniversityName: "University of Alabama",
       specialization: "Bachelor Degree",
-      MonthOfPassing: "December",
-      YearOfPassing: "2023",
+      MonthOfPassing: "May 2022-TBD",
+      YearOfPassing: "",
       
     },
     {
       UniversityName: "Shelton State Community College",
       specialization: "Associate Degree",
-      MonthOfPassing: "May",
-      YearOfPassing: "2022",
+      MonthOfPassing: "Jan 2021",
+      YearOfPassing: "May 2022",
       
     },
     {
       UniversityName: "Lambda School",
       specialization: "Computer Science",
-      MonthOfPassing: "May",
-      YearOfPassing: "2020",
+      MonthOfPassing: "May 2019",
+      YearOfPassing: "Feb 2020",
       
     },
     {
       UniversityName: "University of Alabama-Huntsville",
       specialization: "Aerospace Engineering",
-      MonthOfPassing: "May",
-      YearOfPassing: "2017",
+      MonthOfPassing: "Aug 2015",
+      YearOfPassing: "May 2017",
     },
     {
       highSchoolName: "Aliceville High School",
